@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T13:59:39Z",
-  "feed_version": 61,
+  "generated_at": "2026-10-22T14:39:37Z",
+  "feed_version": 62,
   "sets": [
     {
       "set": "dev-finos-osera-forks/patch-snakeyaml@v1.33.1-osera-00001",
@@ -8,14 +8,8 @@
       "coordinates": [
         "org.yaml:snakeyaml@1.33.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-22T13:59:39Z",
-      "reasons": [
-        {
-          "member": "org.yaml:snakeyaml@1.33.1-osera-00001",
-          "why": "evidence chain not complete: signatures: failed (no registry entry to take the signing key from); document: failed (the vulnerability document's signature: no registry entry to take the signing key from); producer: failed (producer cp-osera-dev is not in the approved producers registry); verdict: failed (the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea); fork: failed (the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea); tag: not checked (the fork is missing); upload: not checked (no registry entry to compare the upload account with); tagger: not checked (no registry entry to compare the tag pusher with)"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     }
   ]
 }
