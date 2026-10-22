@@ -24,7 +24,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-22T14:35:33Z"
+          "checked_at": "2026-10-22T14:49:04Z"
         },
         "verdict": {
           "state": "present",
@@ -36,15 +36,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-22T14:35:33Z"
+          "checked_at": "2026-10-22T14:49:04Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-22T14:35:33Z"
+          "checked_at": "2026-10-22T14:49:04Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-22T14:35:33Z"
+          "checked_at": "2026-10-22T14:49:04Z"
         }
       },
       "chain": "complete",
@@ -52,7 +52,7 @@
         "snakeyaml-1.33.x",
         "spring-boot-2.7.x"
       ],
-      "feed": "held: org.yaml:snakeyaml@1.33.1-osera-00001: evidence chain not complete: signatures: failed (no registry entry to take the signing key from); document: failed (the vulnerability document's signature: no registry entry to take the signing key from); producer: failed (producer cp-osera-dev is not in the approved producers registry); verdict: failed (the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea); fork: failed (the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea); tag: not checked (the fork is missing); upload: not checked (no registry entry to compare the upload account with); tagger: not checked (no registry entry to compare the tag pusher with)"
+      "feed": "in the feed"
     }
   ]
 }
