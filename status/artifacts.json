@@ -27,7 +27,7 @@
         "producer": {
           "state": "failed",
           "reason": "producer cp-osera-dev is not in the approved producers registry",
-          "checked_at": "2026-10-22T13:56:09Z"
+          "checked_at": "2026-10-22T14:01:10Z"
         },
         "verdict": {
           "state": "failed",
@@ -37,22 +37,22 @@
         "fork": {
           "state": "failed",
           "reason": "the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea",
-          "checked_at": "2026-10-22T13:56:09Z"
+          "checked_at": "2026-10-22T14:01:10Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork is missing",
-          "checked_at": "2026-10-22T13:56:09Z"
+          "checked_at": "2026-10-22T14:01:10Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no registry entry to compare the upload account with",
-          "checked_at": "2026-10-22T13:56:09Z"
+          "checked_at": "2026-10-22T14:01:10Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no registry entry to compare the tag pusher with",
-          "checked_at": "2026-10-22T13:56:09Z"
+          "checked_at": "2026-10-22T14:01:10Z"
         }
       },
       "chain": "failed",
@@ -60,7 +60,7 @@
         "snakeyaml-1.33.x",
         "spring-boot-2.7.x"
       ],
-      "feed": "in the feed"
+      "feed": "held: org.yaml:snakeyaml@1.33.1-osera-00001: evidence chain not complete: signatures: failed (no registry entry to take the signing key from); document: failed (the vulnerability document's signature: no registry entry to take the signing key from); producer: failed (producer cp-osera-dev is not in the approved producers registry); verdict: failed (the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea); fork: failed (the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea); tag: not checked (the fork is missing); upload: not checked (no registry entry to compare the upload account with); tagger: not checked (no registry entry to compare the tag pusher with)"
     }
   ]
 }
