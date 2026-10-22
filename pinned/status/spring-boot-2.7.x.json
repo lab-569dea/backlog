@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.22.28",
-  "as_of": "2026-10-22T13:57:04Z",
+  "as_of": "2026-10-22T14:05:46Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 189,
@@ -766,8 +766,6 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [
-    "CVE-2022-1471 on snakeyaml 1.33: promoted artifact org.yaml:snakeyaml@1.33.1-osera-00001 refused: producer cp-osera-dev is not in the approved producers registry, the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea"
-  ],
+  "discrepancies": [],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.21.6"
 }
