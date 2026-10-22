@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:09276b03-1733-59fd-b945-7fb0f2cbff30",
-  "version": 61,
+  "version": 62,
   "metadata": {
-    "timestamp": "2026-10-22T13:59:39Z",
+    "timestamp": "2026-10-22T14:39:37Z",
     "tools": {
       "components": [
         {
@@ -18,6 +18,45 @@
       "name": "OSERA Exchange"
     }
   },
-  "components": [],
-  "vulnerabilities": []
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001",
+      "supplier": {
+        "name": "cp-osera-dev"
+      },
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.33.1-osera-00001",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "bom-ref": "CVE-2022-1471 on pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001",
+      "id": "CVE-2022-1471",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1471"
+      },
+      "references": [
+        {
+          "id": "GHSA-mjmj-j48q-9wg2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mjmj-j48q-9wg2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T11:42:34Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001"
+        }
+      ]
+    }
+  ]
 }
