@@ -1,20 +1,25 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.22.28",
-  "as_of": "2026-10-22T14:05:46Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-22T14:35:32Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 74,
-  "fixed": [],
+  "fixed": [
+    {
+      "cve": "CVE-2022-1471",
+      "library": "org.yaml:snakeyaml",
+      "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.yaml:snakeyaml@1.33.1-osera-00001",
+      "at": "2026-10-22T14:35:32Z"
+    }
+  ],
   "in_progress": [],
   "open": [
     {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web"
-    },
-    {
-      "cve": "CVE-2022-1471",
-      "library": "org.yaml:snakeyaml"
     },
     {
       "cve": "CVE-2023-34040",
@@ -307,5 +312,5 @@
   ],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.21.6"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.22.2"
 }
