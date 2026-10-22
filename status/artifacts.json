@@ -2,60 +2,52 @@
   "artifacts": [
     {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
-      "producer": "cp-osera-dev",
+      "producer": "lab-producer",
       "fork": "patch-snakeyaml",
       "tag": "v1.33.1-osera-00001",
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-10-22T13:28:39Z"
+          "checked_at": "2026-10-22T14:25:09Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-10-22T13:28:39Z"
+          "checked_at": "2026-10-22T14:25:09Z"
         },
         "signatures": {
-          "state": "failed",
-          "reason": "no registry entry to take the signing key from",
-          "checked_at": "2026-10-22T13:28:39Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:25:10Z"
         },
         "document": {
-          "state": "failed",
-          "reason": "the vulnerability document's signature: no registry entry to take the signing key from",
-          "checked_at": "2026-10-22T13:28:39Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:25:10Z"
         },
         "producer": {
-          "state": "failed",
-          "reason": "producer cp-osera-dev is not in the approved producers registry",
-          "checked_at": "2026-10-22T14:01:10Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:35:33Z"
         },
         "verdict": {
-          "state": "failed",
-          "reason": "the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea",
-          "checked_at": "2026-10-22T13:28:39Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:25:09Z"
         },
         "fork": {
-          "state": "failed",
-          "reason": "the verdict names the fork dev-finos-osera-forks/patch-snakeyaml, the forks of this exchange are in lab-569dea",
-          "checked_at": "2026-10-22T14:01:10Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:25:10Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "the fork is missing",
-          "checked_at": "2026-10-22T14:01:10Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:35:33Z"
         },
         "upload": {
-          "state": "not checked",
-          "reason": "no registry entry to compare the upload account with",
-          "checked_at": "2026-10-22T14:01:10Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:35:33Z"
         },
         "tagger": {
-          "state": "not checked",
-          "reason": "no registry entry to compare the tag pusher with",
-          "checked_at": "2026-10-22T14:01:10Z"
+          "state": "present",
+          "checked_at": "2026-10-22T14:35:33Z"
         }
       },
-      "chain": "failed",
+      "chain": "complete",
       "lines": [
         "snakeyaml-1.33.x",
         "spring-boot-2.7.x"

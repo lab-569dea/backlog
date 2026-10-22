@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T14:05:46Z. Written by the line manager reconciler.
+Generated 2026-10-22T14:35:32Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | not fixed | 189 | 0 | 0% | 177 | 0 | 189 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 189 | 1 | 1% | 177 | 0 | 188 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 23 | 0 | 0% | 24 | 0 | 23 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 31 | 0 | 0% | 45 | 0 | 31 | 0 |
 
@@ -136,5 +136,5 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | - | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | - | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 1.31.1-osera-00003 | 1.31.1-osera-00003 | not ready, evidence chain incomplete: not checked | not fully checked | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) |
-| org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x, spring-boot-2.7.x | listed by the BOM at 1.30 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | not ready, evidence chain incomplete: not checked | not fully checked | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) |
+| org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x, spring-boot-2.7.x | listed by the BOM at 1.30 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | - | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
