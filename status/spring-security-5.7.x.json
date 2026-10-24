@@ -1,52 +1,16 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.24.2",
-  "as_of": "2026-10-24T09:18:14Z",
+  "as_of": "2026-10-24T09:19:54Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 31,
+  "in_scope": 22,
   "fixed": [],
   "in_progress": [],
   "open": [
     {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web"
-    },
-    {
-      "cve": "CVE-2020-36518",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "CVE-2021-46877",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "CVE-2022-42003",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "CVE-2022-42004",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "CVE-2024-22243",
-      "library": "org.springframework:spring-web"
-    },
-    {
-      "cve": "CVE-2024-22257",
-      "library": "org.springframework.security:spring-security-core"
-    },
-    {
-      "cve": "CVE-2024-22259",
-      "library": "org.springframework:spring-web"
-    },
-    {
-      "cve": "CVE-2024-22262",
-      "library": "org.springframework:spring-web"
-    },
-    {
-      "cve": "CVE-2024-38821",
-      "library": "org.springframework.security:spring-security-web"
     },
     {
       "cve": "CVE-2025-22228",

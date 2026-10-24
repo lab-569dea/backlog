@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:3c400de4-d4ac-4ada-8eb8-4f9a74e44c48",
+ "serialNumber": "urn:uuid:b190f0c2-b28e-4b29-897b-1c491f835189",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-24T09:16:55Z",
+  "timestamp": "2026-10-24T09:19:55Z",
   "tools": {
    "components": [
     {
@@ -1248,7 +1248,7 @@
    "properties": [
     {
      "name": "osera:resolved_by",
-     "value": "maven,gradle"
+     "value": "maven"
     }
    ]
   },
@@ -1262,7 +1262,7 @@
    "properties": [
     {
      "name": "osera:resolved_by",
-     "value": "maven"
+     "value": "maven,gradle"
     }
    ]
   },
