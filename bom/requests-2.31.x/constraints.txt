@@ -1,0 +1,2 @@
+# This file is the pin file of the OSERA line requests-2.31.x: it pins every library the exchange patched on this line at its promoted version and adds nothing. It is written by the line manager on every pass that changes the promoted set of the line; the versions are in the exchange's PyPI release repository.
+requests==2.31.0+osera.patch.1

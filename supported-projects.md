@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-24T13:38:13Z. Written by the line manager reconciler.
+Generated 2026-10-24T20:45:58Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -12,11 +12,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 23 | 0 | 0% | 24 | 0 | 23 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 22 | 0 | 0% | 45 | 0 | 22 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
-| requests-2.31.x | pypi | `requests==2.31.0` | nothing in scope | 0 | 0 | - | 3 | 0 | 0 | 0 |
+| requests-2.31.x | pypi | `requests==2.31.0` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 
 ## Libraries
 
-40 libraries across 5 line(s).
+41 libraries across 5 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -60,3 +60,4 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 8 | 0 | 0% | 9 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.33 | spring-boot-2.7.x | listed by the BOM at 1.30 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| requests | 2.31.0 | requests-2.31.x | pulled in by a dependency (requests@2.31.0) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 2.31.0+osera.patch.1 | 2.31.0+osera.patch.1 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
