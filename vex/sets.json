@@ -1,12 +1,30 @@
 {
-  "generated_at": "2026-10-22T14:39:37Z",
-  "feed_version": 62,
+  "generated_at": "2026-10-24T13:34:15Z",
+  "feed_version": 63,
   "sets": [
     {
       "set": "dev-finos-osera-forks/patch-snakeyaml@v1.33.1-osera-00001",
       "members": 1,
       "coordinates": [
         "org.yaml:snakeyaml@1.33.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "lab-569dea/patch-crypto-js@v4.1.2-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "crypto-js@4.1.2-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "lab-569dea/patch-requests@v2.31.0+osera-patch.001",
+      "members": 1,
+      "coordinates": [
+        "requests@2.31.0+osera.patch.1"
       ],
       "state": "in the feed",
       "statements": 1
