@@ -25,7 +25,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "verdict": {
           "state": "present",
@@ -37,19 +37,21 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         }
       },
       "chain": "complete",
-      "lines": [],
+      "lines": [
+        "crypto-js-4.1.x"
+      ],
       "feed": "in the feed"
     },
     {
@@ -77,7 +79,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "verdict": {
           "state": "present",
@@ -89,15 +91,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         }
       },
       "chain": "complete",
@@ -132,7 +134,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "verdict": {
           "state": "present",
@@ -144,15 +146,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-24T13:35:14Z"
+          "checked_at": "2026-10-24T13:38:14Z"
         }
       },
       "chain": "complete",
