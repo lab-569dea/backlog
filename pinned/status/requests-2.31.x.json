@@ -1,0 +1,14 @@
+{
+  "line": "requests-2.31.x",
+  "book_version": "v2026.10.24.4",
+  "as_of": "2026-10-24T13:34:13Z",
+  "status": "nothing in scope",
+  "chain": "",
+  "in_scope": 0,
+  "fixed": [],
+  "in_progress": [],
+  "open": [],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}
