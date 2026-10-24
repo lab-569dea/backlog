@@ -1,7 +1,60 @@
 {
   "artifacts": [
     {
+      "coordinate": "crypto-js@4.1.2-osera-00001",
+      "purl": "pkg:npm/crypto-js@4.1.2-osera-00001",
+      "producer": "lab-producer",
+      "fork": "patch-crypto-js",
+      "tag": "v4.1.2-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:52Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:52Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:53Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:53Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:52Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:52Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:53Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [],
+      "feed": "not in a set"
+    },
+    {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001",
       "producer": "lab-producer",
       "fork": "patch-snakeyaml",
       "tag": "v1.33.1-osera-00001",
@@ -24,7 +77,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-22T14:49:04Z"
+          "checked_at": "2026-10-24T13:32:52Z"
         },
         "verdict": {
           "state": "present",
@@ -32,19 +85,19 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-10-22T14:25:10Z"
+          "checked_at": "2026-10-24T13:06:33Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-22T14:49:04Z"
+          "checked_at": "2026-10-24T13:32:52Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-22T14:49:04Z"
+          "checked_at": "2026-10-24T13:32:52Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-22T14:49:04Z"
+          "checked_at": "2026-10-24T13:32:52Z"
         }
       },
       "chain": "complete",
@@ -53,6 +106,58 @@
         "spring-boot-2.7.x"
       ],
       "feed": "in the feed"
+    },
+    {
+      "coordinate": "requests@2.31.0+osera.patch.1",
+      "purl": "pkg:pypi/requests@2.31.0%2Bosera.patch.1",
+      "producer": "lab-producer",
+      "fork": "patch-requests",
+      "tag": "v2.31.0+osera-patch.001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-10-24T13:32:54Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [],
+      "feed": "not in a set"
     }
   ]
 }
