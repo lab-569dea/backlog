@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T14:39:37Z",
-  "version": 62,
-  "tooling": "osera-feed dev",
+  "last_updated": "2026-10-24T13:34:15Z",
+  "version": 63,
+  "tooling": "osera-feed local-npm-pypi",
   "statements": [
     {
       "vulnerability": {
@@ -23,6 +23,38 @@
       ],
       "status": "fixed",
       "supplier": "cp-osera-dev"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-46233",
+        "aliases": [
+          "GHSA-xwcq-pm8m-c4vf"
+        ]
+      },
+      "timestamp": "2026-10-22T19:48:05Z",
+      "products": [
+        {
+          "@id": "pkg:npm/crypto-js@4.1.2-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "lab-producer"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-35195",
+        "aliases": [
+          "GHSA-9wx4-h78v-vm56"
+        ]
+      },
+      "timestamp": "2026-10-24T12:15:49Z",
+      "products": [
+        {
+          "@id": "pkg:pypi/requests@2.31.0%2Bosera.patch.1"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "lab-producer"
     }
   ]
 }
