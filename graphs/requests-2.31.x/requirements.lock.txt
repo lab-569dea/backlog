@@ -1,4 +1,4 @@
-# The lock of line requests-2.31.x: what pip resolved for requests==2.31.0 on Python 3.12, manylinux_2_28_x86_64, at 2026-10-24T13:36:15Z.
+# The lock of line requests-2.31.x: what pip resolved for requests==2.31.0 on Python 3.12, manylinux_2_28_x86_64, at 2026-10-26T09:08:24Z.
 # Written by resolver-pypi; the line manager stores it next to the graph and the next resolve starts from it.
 certifi==2026.10.23 --hash=sha256:e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1
 charset-normalizer==3.5.2 --hash=sha256:3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649

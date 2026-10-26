@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:ef96fe77-ec11-46b2-9add-c57e34702536",
+ "serialNumber": "urn:uuid:5d2bb2d3-5653-4d9b-b7ef-65a3ba381514",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-24T13:37:13Z",
+  "timestamp": "2026-10-26T09:09:22Z",
   "tools": {
    "components": [
     {
@@ -61,7 +61,7 @@
     },
     {
      "name": "osera:method",
-     "value": "pip 25.0.1: pip resolve, wheels only; edges from requires_dist for python 3.12 on manylinux_2_28_x86_64"
+     "value": "pip 25.0.1: pip resolve, wheels only, from the previous lock; edges from requires_dist for python 3.12 on manylinux_2_28_x86_64"
     },
     {
      "name": "osera:gradle",
