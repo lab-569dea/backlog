@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.24.8",
-  "as_of": "2026-10-24T20:48:33Z",
+  "as_of": "2026-10-26T10:19:26Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 74,
+  "in_scope": 199,
   "fixed": [
     {
       "cve": "CVE-2022-1471",
@@ -22,12 +22,100 @@
       "library": "org.springframework:spring-web"
     },
     {
+      "cve": "CVE-2018-10237",
+      "library": "com.google.guava:guava"
+    },
+    {
+      "cve": "CVE-2019-12400",
+      "library": "org.apache.santuario:xmlsec"
+    },
+    {
+      "cve": "CVE-2020-13936",
+      "library": "org.apache.velocity:velocity"
+    },
+    {
+      "cve": "CVE-2020-14338",
+      "library": "xerces:xercesImpl"
+    },
+    {
+      "cve": "CVE-2020-8908",
+      "library": "com.google.guava:guava"
+    },
+    {
+      "cve": "CVE-2021-40690",
+      "library": "org.apache.santuario:xmlsec"
+    },
+    {
+      "cve": "CVE-2022-23437",
+      "library": "xerces:xercesImpl"
+    },
+    {
+      "cve": "CVE-2022-40152",
+      "library": "com.fasterxml.woodstox:woodstox-core"
+    },
+    {
+      "cve": "CVE-2023-2976",
+      "library": "com.google.guava:guava"
+    },
+    {
+      "cve": "CVE-2023-33201",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
       "cve": "CVE-2023-34040",
       "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2023-3894",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml"
+    },
+    {
+      "cve": "CVE-2023-44483",
+      "library": "org.apache.santuario:xmlsec"
+    },
+    {
+      "cve": "CVE-2023-46120",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2023-51074",
+      "library": "com.jayway.jsonpath:json-path"
+    },
+    {
+      "cve": "CVE-2023-52428",
+      "library": "com.nimbusds:nimbus-jose-jwt"
+    },
+    {
+      "cve": "CVE-2024-12798",
+      "library": "ch.qos.logback:logback-core"
+    },
+    {
+      "cve": "CVE-2024-12801",
+      "library": "ch.qos.logback:logback-core"
+    },
+    {
+      "cve": "CVE-2024-25710",
+      "library": "org.apache.commons:commons-compress"
+    },
+    {
+      "cve": "CVE-2024-26308",
+      "library": "org.apache.commons:commons-compress"
+    },
+    {
+      "cve": "CVE-2024-29857",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
+      "cve": "CVE-2024-30171",
+      "library": "org.bouncycastle:bcprov-jdk15on"
+    },
+    {
+      "cve": "CVE-2024-31573",
+      "library": "org.xmlunit:xmlunit-core"
+    },
+    {
+      "cve": "CVE-2024-34447",
+      "library": "org.bouncycastle:bcprov-jdk15on"
     },
     {
       "cve": "CVE-2024-38807",
@@ -50,6 +138,26 @@
       "library": "org.springframework:spring-webmvc"
     },
     {
+      "cve": "CVE-2024-38820",
+      "library": "org.springframework:spring-context"
+    },
+    {
+      "cve": "CVE-2024-38820",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-38828",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2024-40094",
+      "library": "com.graphql-java:graphql-java"
+    },
+    {
+      "cve": "CVE-2024-6763",
+      "library": "org.eclipse.jetty:jetty-http"
+    },
+    {
       "cve": "CVE-2025-11226",
       "library": "ch.qos.logback:logback-core"
     },
@@ -62,20 +170,128 @@
       "library": "org.springframework.security:spring-security-crypto"
     },
     {
+      "cve": "CVE-2025-22233",
+      "library": "org.springframework:spring-context"
+    },
+    {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot"
+    },
+    {
+      "cve": "CVE-2025-41242",
+      "library": "org.springframework:spring-webmvc"
     },
     {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core"
     },
     {
+      "cve": "CVE-2025-41254",
+      "library": "org.springframework:spring-websocket"
+    },
+    {
+      "cve": "CVE-2025-48734",
+      "library": "commons-beanutils:commons-beanutils"
+    },
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
+    },
+    {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
+      "cve": "CVE-2025-53864",
+      "library": "com.nimbusds:nimbus-jose-jwt"
+    },
+    {
+      "cve": "CVE-2025-66566",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2025-66566",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2025-68161",
+      "library": "org.apache.logging.log4j:log4j-core"
+    },
+    {
+      "cve": "CVE-2025-8916",
+      "library": "org.bouncycastle:bcpkix-jdk15on"
+    },
+    {
       "cve": "CVE-2026-10050",
       "library": "org.eclipse.jetty:jetty-security"
+    },
+    {
+      "cve": "CVE-2026-10532",
+      "library": "ch.qos.logback:logback-core"
+    },
+    {
+      "cve": "CVE-2026-106121",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-106122",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-106123",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-106449",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106449",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106450",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106450",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106451",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106451",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106452",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106452",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106453",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-106453",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-113730",
+      "library": "ognl:ognl"
+    },
+    {
+      "cve": "CVE-2026-1225",
+      "library": "ch.qos.logback:logback-core"
+    },
+    {
+      "cve": "CVE-2026-19032",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "cve": "CVE-2026-19203",
@@ -90,12 +306,76 @@
       "library": "org.springframework.boot:spring-boot-starter-actuator"
     },
     {
+      "cve": "CVE-2026-22735",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22735",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-22737",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22737",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
       "cve": "CVE-2026-22740",
       "library": "org.springframework:spring-webflux"
     },
     {
+      "cve": "CVE-2026-22741",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22741",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-22745",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22745",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-22746",
+      "library": "org.springframework.security:spring-security-core"
+    },
+    {
       "cve": "CVE-2026-2332",
       "library": "org.eclipse.jetty:jetty-http"
+    },
+    {
+      "cve": "CVE-2026-24400",
+      "library": "org.assertj:assertj-core"
+    },
+    {
+      "cve": "CVE-2026-27727",
+      "library": "com.mchange:mchange-commons-java"
+    },
+    {
+      "cve": "CVE-2026-3260",
+      "library": "io.undertow:undertow-core"
+    },
+    {
+      "cve": "CVE-2026-33227",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-33227",
+      "library": "org.apache.activemq:activemq-client"
+    },
+    {
+      "cve": "CVE-2026-34197",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-34477",
+      "library": "org.apache.logging.log4j:log4j-core"
     },
     {
       "cve": "CVE-2026-34479",
@@ -110,12 +390,44 @@
       "library": "org.apache.logging.log4j:log4j-layout-template-json"
     },
     {
+      "cve": "CVE-2026-39304",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-39304",
+      "library": "org.apache.activemq:activemq-client"
+    },
+    {
+      "cve": "CVE-2026-40466",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-40477",
+      "library": "org.thymeleaf:thymeleaf"
+    },
+    {
+      "cve": "CVE-2026-40477",
+      "library": "org.thymeleaf:thymeleaf-spring5"
+    },
+    {
+      "cve": "CVE-2026-40478",
+      "library": "org.thymeleaf:thymeleaf"
+    },
+    {
+      "cve": "CVE-2026-40478",
+      "library": "org.thymeleaf:thymeleaf-spring5"
+    },
+    {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools"
     },
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot"
+    },
+    {
+      "cve": "CVE-2026-40984",
+      "library": "io.micrometer:micrometer-core"
     },
     {
       "cve": "CVE-2026-40987",
@@ -138,6 +450,14 @@
       "library": "org.springframework.ws:spring-ws-core"
     },
     {
+      "cve": "CVE-2026-41001",
+      "library": "org.springframework.boot:spring-boot-autoconfigure"
+    },
+    {
+      "cve": "CVE-2026-41003",
+      "library": "org.springframework.security:spring-security-saml2-service-provider"
+    },
+    {
       "cve": "CVE-2026-41006",
       "library": "org.springframework.hateoas:spring-hateoas"
     },
@@ -146,12 +466,48 @@
       "library": "org.springframework.hateoas:spring-hateoas"
     },
     {
+      "cve": "CVE-2026-41043",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-41044",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-41694",
+      "library": "org.springframework.security:spring-security-saml2-service-provider"
+    },
+    {
+      "cve": "CVE-2026-41696",
+      "library": "org.springframework.data:spring-data-mongodb"
+    },
+    {
+      "cve": "CVE-2026-41697",
+      "library": "org.springframework.data:spring-data-relational"
+    },
+    {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql"
     },
     {
+      "cve": "CVE-2026-41701",
+      "library": "org.springframework.amqp:spring-amqp"
+    },
+    {
       "cve": "CVE-2026-41706",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-41710",
+      "library": "org.springframework.retry:spring-retry"
+    },
+    {
+      "cve": "CVE-2026-41711",
+      "library": "org.springframework.data:spring-data-commons"
+    },
+    {
+      "cve": "CVE-2026-41714",
+      "library": "org.springframework.amqp:spring-amqp"
     },
     {
       "cve": "CVE-2026-41715",
@@ -174,6 +530,10 @@
       "library": "org.springframework.ldap:spring-ldap-core"
     },
     {
+      "cve": "CVE-2026-41721",
+      "library": "org.springframework.data:spring-data-commons"
+    },
+    {
       "cve": "CVE-2026-41726",
       "library": "org.springframework.kafka:spring-kafka"
     },
@@ -190,12 +550,36 @@
       "library": "org.springframework.data:spring-data-rest-core"
     },
     {
+      "cve": "CVE-2026-41730",
+      "library": "org.springframework.data:spring-data-rest-core"
+    },
+    {
       "cve": "CVE-2026-41731",
       "library": "org.springframework.kafka:spring-kafka"
     },
     {
+      "cve": "CVE-2026-41837",
+      "library": "org.springframework.data:spring-data-rest-core"
+    },
+    {
       "cve": "CVE-2026-41838",
       "library": "org.springframework:spring-websocket"
+    },
+    {
+      "cve": "CVE-2026-41839",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41840",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41841",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41841",
+      "library": "org.springframework:spring-webmvc"
     },
     {
       "cve": "CVE-2026-41842",
@@ -203,6 +587,14 @@
     },
     {
       "cve": "CVE-2026-41842",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41843",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41843",
       "library": "org.springframework:spring-webmvc"
     },
     {
@@ -222,6 +614,10 @@
       "library": "org.springframework:spring-webmvc"
     },
     {
+      "cve": "CVE-2026-41847",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
       "cve": "CVE-2026-41848",
       "library": "org.springframework:spring-core"
     },
@@ -238,12 +634,40 @@
       "library": "org.springframework:spring-expression"
     },
     {
+      "cve": "CVE-2026-41852",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41853",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41853",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
       "cve": "CVE-2026-41855",
       "library": "org.springframework:spring-jms"
     },
     {
       "cve": "CVE-2026-41856",
       "library": "org.springframework.graphql:spring-graphql"
+    },
+    {
+      "cve": "CVE-2026-41901",
+      "library": "org.thymeleaf:thymeleaf"
+    },
+    {
+      "cve": "CVE-2026-41901",
+      "library": "org.thymeleaf:thymeleaf-spring5"
+    },
+    {
+      "cve": "CVE-2026-42588",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-45505",
+      "library": "org.apache.activemq:activemq-broker"
     },
     {
       "cve": "CVE-2026-47838",
@@ -262,6 +686,14 @@
       "library": "org.springframework:spring-webflux"
     },
     {
+      "cve": "CVE-2026-49270",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-49844",
+      "library": "org.apache.logging.log4j:log4j-api"
+    },
+    {
       "cve": "CVE-2026-50193",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
@@ -272,6 +704,22 @@
     {
       "cve": "CVE-2026-54513",
       "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54514",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54515",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-55153",
+      "library": "com.mchange:mchange-commons-java"
+    },
+    {
+      "cve": "CVE-2026-5588",
+      "library": "org.bouncycastle:bcpkix-jdk15on"
     },
     {
       "cve": "CVE-2026-5795",
@@ -294,8 +742,56 @@
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
+      "cve": "CVE-2026-59949",
+      "library": "at.yawk.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-59949",
+      "library": "org.lz4:lz4-java"
+    },
+    {
+      "cve": "CVE-2026-61634",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-63335",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-63336",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-63337",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-6790",
+      "library": "org.eclipse.jetty:jetty-server"
+    },
+    {
       "cve": "CVE-2026-68494",
       "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-69219",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-69220",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-75516",
+      "library": "com.rabbitmq:amqp-client"
+    },
+    {
+      "cve": "CVE-2026-77310",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-83557",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "cve": "CVE-2026-89425",
@@ -308,6 +804,10 @@
     {
       "cve": "CVE-2026-91777",
       "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-9828",
+      "library": "ch.qos.logback:logback-core"
     }
   ],
   "not_remediable": [],
