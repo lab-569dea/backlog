@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:8b7c0c60-6918-528b-9357-39d61d6c5397",
-  "version": 63,
+  "version": 64,
   "metadata": {
-    "timestamp": "2026-10-24T13:34:15Z",
+    "timestamp": "2026-10-26T09:50:26Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "local-npm-pypi"
+          "version": "local-o4-20261026T092132Z"
         }
       ]
     },
@@ -26,7 +26,7 @@
       "type": "library",
       "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001",
       "supplier": {
-        "name": "cp-osera-dev"
+        "name": "lab-producer"
       },
       "group": "org.yaml",
       "name": "snakeyaml",
@@ -75,7 +75,7 @@
       ],
       "analysis": {
         "state": "resolved_with_pedigree",
-        "firstIssued": "2026-10-22T11:42:34Z"
+        "firstIssued": "2026-10-22T14:24:13Z"
       },
       "affects": [
         {

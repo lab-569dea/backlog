@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-24T13:34:15Z",
-  "version": 63,
-  "tooling": "osera-feed local-npm-pypi",
+  "last_updated": "2026-10-26T09:50:26Z",
+  "version": 64,
+  "tooling": "osera-feed local-o4-20261026T092132Z",
   "statements": [
     {
       "vulnerability": {
@@ -15,14 +15,14 @@
           "GHSA-mjmj-j48q-9wg2"
         ]
       },
-      "timestamp": "2026-10-22T11:42:34Z",
+      "timestamp": "2026-10-22T14:24:13Z",
       "products": [
         {
           "@id": "pkg:maven/org.yaml/snakeyaml@1.33.1-osera-00001"
         }
       ],
       "status": "fixed",
-      "supplier": "cp-osera-dev"
+      "supplier": "lab-producer"
     },
     {
       "vulnerability": {
