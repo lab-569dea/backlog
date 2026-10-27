@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:50:26Z",
+  "generated_at": "2026-10-27T11:25:43Z",
   "feed_version": 64,
   "sets": [
     {
@@ -10,6 +10,21 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "lab-569dea/patch-oseralab-gate-probe@v0.0.1+osera.patch.1",
+      "members": 1,
+      "coordinates": [
+        "oseralab-gate-probe@0.0.1+osera.patch.1"
+      ],
+      "state": "held",
+      "held_since": "2026-10-27T11:25:43Z",
+      "reasons": [
+        {
+          "member": "oseralab-gate-probe@0.0.1+osera.patch.1",
+          "why": "evidence chain not complete: evidence: missing (no evidence file next to oseralab-gate-probe-0.0.1+osera.patch.1); signatures: failed (no signature next to the source archive (oseralab_gate_probe-0.0.1+osera.patch.1.tar.gz.asc)); document: missing (no vulnerability document next to the pom (oseralab_gate_probe-0.0.1+osera.patch.1-cyclonedx.json)); producer: missing (the evidence names no producer); verdict: missing (no verdict for 0.0.1+osera.patch.1 in osera-releases-raw-01); fork: missing (the fork patch-oseralab-gate-probe is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
+        }
+      ]
     },
     {
       "set": "lab-569dea/patch-requests@v2.31.0+osera-patch.001",
