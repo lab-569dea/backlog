@@ -25,7 +25,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "verdict": {
           "state": "present",
@@ -37,15 +37,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         }
       },
       "chain": "complete",
@@ -79,7 +79,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "verdict": {
           "state": "present",
@@ -91,15 +91,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         }
       },
       "chain": "complete",
@@ -137,7 +137,7 @@
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "verdict": {
           "state": "missing",
@@ -152,22 +152,22 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork is missing",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         }
       },
       "chain": "failed",
       "lines": [],
-      "feed": "not in a set"
+      "feed": "held: oseralab-gate-probe@0.0.1+osera.patch.1: evidence chain not complete: evidence: missing (no evidence file next to oseralab-gate-probe-0.0.1+osera.patch.1); signatures: failed (no signature next to the source archive (oseralab_gate_probe-0.0.1+osera.patch.1.tar.gz.asc)); document: missing (no vulnerability document next to the pom (oseralab_gate_probe-0.0.1+osera.patch.1-cyclonedx.json)); producer: missing (the evidence names no producer); verdict: missing (no verdict for 0.0.1+osera.patch.1 in osera-releases-raw-01); fork: missing (the fork patch-oseralab-gate-probe is missing); tag: not checked (the fork is missing); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
     },
     {
       "coordinate": "requests@2.31.0+osera.patch.1",
@@ -194,7 +194,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "verdict": {
           "state": "present",
@@ -206,15 +206,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-27T11:26:30Z"
         }
       },
       "chain": "complete",
