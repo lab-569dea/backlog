@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T10:41:56Z. Written by the line manager reconciler.
+Generated 2026-10-27T11:04:56Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -95,3 +95,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.yaml:snakeyaml | 1.33 | spring-boot-2.7.x | listed by the BOM at 1.30 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | requests | 2.31.0 | requests-2.31.x | pulled in by a dependency (requests@2.31.0) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 2.31.0+osera.patch.1 | 2.31.0+osera.patch.1 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+
+## Libraries promoted, not in the backlog
+
+1 library, 1 patched version(s).
+
+| name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| oseralab-gate-probe | 0.0.1 | not listed by any line |  | crypto-js-4.1.x, requests-2.31.x | 0.0.1+osera.patch.1 | 0.0.1+osera.patch.1 | not ready, evidence chain incomplete: signatures, VEX document, fork | broken | OK | not checked (no evidence file yet: the last file landed 11s ago and the gate writes it just before the verdict) | NOK (no signature next to the source archive (oseralab_gate_probe-0.0.1+osera.patch.1.tar.gz.asc)) | NOK (no vulnerability document next to the pom (oseralab_gate_probe-0.0.1+osera.patch.1-cyclonedx.json)) | not checked (no producer yet: the last file landed 11s ago and it is read from the evidence file, which the gate writes just before the verdict) | not checked (no verdict yet: the last file landed 11s ago and the gate writes the verdict last) | NOK (the fork patch-oseralab-gate-probe is missing) | not checked (the fork is missing) | not checked (the verdict could not be read) | not checked (the verdict could not be read) |
