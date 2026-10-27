@@ -25,7 +25,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "verdict": {
           "state": "present",
@@ -37,15 +37,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         }
       },
       "chain": "complete",
@@ -79,7 +79,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "verdict": {
           "state": "present",
@@ -91,15 +91,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         }
       },
       "chain": "complete",
@@ -117,35 +117,35 @@
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "evidence": {
           "state": "not checked",
-          "reason": "no evidence file yet: the last file landed 3m10s ago and the gate writes it just before the verdict",
+          "reason": "no evidence file yet: the last file landed 4m10s ago and the gate writes it just before the verdict",
           "unanswered": true,
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "signatures": {
           "state": "failed",
           "reason": "no signature next to the source archive (oseralab_gate_probe-0.0.1+osera.patch.1.tar.gz.asc)",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (oseralab_gate_probe-0.0.1+osera.patch.1-cyclonedx.json)",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "producer": {
           "state": "not checked",
-          "reason": "no producer yet: the last file landed 3m10s ago and it is read from the evidence file, which the gate writes just before the verdict",
+          "reason": "no producer yet: the last file landed 4m10s ago and it is read from the evidence file, which the gate writes just before the verdict",
           "unanswered": true,
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "verdict": {
           "state": "not checked",
-          "reason": "no verdict yet: the last file landed 3m10s ago and the gate writes the verdict last",
+          "reason": "no verdict yet: the last file landed 4m10s ago and the gate writes the verdict last",
           "unanswered": true,
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "fork": {
           "state": "missing",
@@ -155,19 +155,19 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork is missing",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "the verdict could not be read",
           "unanswered": true,
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "the verdict could not be read",
           "unanswered": true,
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         }
       },
       "chain": "broken",
@@ -199,7 +199,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "verdict": {
           "state": "present",
@@ -211,15 +211,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:07:57Z"
+          "checked_at": "2026-10-27T11:08:57Z"
         }
       },
       "chain": "complete",
