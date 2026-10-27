@@ -1,3 +1,17 @@
 {
-  "artifacts": null
+  "artifacts": [
+    {
+      "coordinate": "oseralab-gate-probe@0.0.1+osera.patch.1",
+      "library": "oseralab-gate-probe",
+      "base": "0.0.1",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x",
+        "requests-2.31.x"
+      ],
+      "words": "oseralab-gate-probe@0.0.1+osera.patch.1: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, requests-2.31.x, so the graph there may have a hole",
+      "first_seen": "2026-10-27T11:04:56Z"
+    }
+  ]
 }
