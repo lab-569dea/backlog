@@ -1,6 +1,0 @@
-# Simulated requests, lab only, not real members; temporary, removed when the secure intake API login is agreed (27 Oct 2026).
-- {firm: sim-firm-a, ecosystem: npm, project: crypto-js, version_line: 4.1.x, precision: exact-line, weight: critical}
-- {firm: sim-firm-a, ecosystem: pypi, project: requests, version_line: 2.31.x, precision: exact-line, weight: low}
-- {firm: sim-firm-b, ecosystem: npm, project: crypto-js, version_line: 4.1.x, precision: exact-line, weight: high}
-- {firm: sim-firm-c, ecosystem: pypi, project: requests, version_line: 2.31.x, precision: exact-line, weight: medium}
-- {firm: sim-firm-c, ecosystem: npm, project: crypto-js, version_line: 4, precision: broad-major, weight: medium}
