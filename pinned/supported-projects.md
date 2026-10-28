@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T15:38:09Z. Written by the line manager reconciler.
+Generated 2026-10-28T11:54:22Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -10,7 +10,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 323 | 1 | 0% | 36 | 0 | 322 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 47 | 0 | 0% | 0 | 0 | 47 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 72 | 0 | 0% | 4 | 0 | 72 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 73 | 0 | 0% | 4 | 0 | 73 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.31.x | pypi | `requests==2.31.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
@@ -34,7 +34,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | - | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.15.4.1-osera-00018 | 2.15.4.1-osera-00018 | not ready, evidence chain incomplete: not checked | not fully checked | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) |
 | com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | - | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.19.4.1-osera-00020 | 2.19.4.1-osera-00020 | not ready, evidence chain incomplete: not checked | not fully checked | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) |
 | com.fasterxml.woodstox:woodstox-core | 5.0.3 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.apache.santuario:xmlsec@2.0.10) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.google.guava:guava | 20.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.shibboleth.utilities:java-support@7.5.2) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.google.guava:guava | 20.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.shibboleth.utilities:java-support@7.5.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.graphql-java:graphql-java | 18.5 | spring-boot-2.7.x | listed by the BOM at 18.5 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.jayway.jsonpath:json-path | 2.7.0 | spring-boot-2.7.x | listed by the BOM at 2.7.0 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | - | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
