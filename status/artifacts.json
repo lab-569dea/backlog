@@ -25,32 +25,27 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-29T06:54:45Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "verdict": {
           "state": "present",
           "checked_at": "2026-10-24T13:32:52Z"
         },
         "fork": {
-          "state": "not checked",
-          "reason": "GitHub did not answer",
-          "detail": "reading repository lab-569dea/patch-crypto-js: Get \"https://api.github.com/repos/lab-569dea/patch-crypto-js\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
-          "unanswered": true,
-          "checked_at": "2026-10-29T07:04:07Z"
+          "state": "present",
+          "checked_at": "2026-10-29T07:29:49Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "the fork could not be checked",
-          "unanswered": true,
-          "checked_at": "2026-10-29T07:04:07Z"
+          "state": "present",
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-29T07:04:07Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-29T07:04:07Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         }
       },
       "chain": "complete",
@@ -84,7 +79,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-29T06:54:45Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "verdict": {
           "state": "present",
@@ -92,19 +87,19 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-10-29T06:00:47Z"
+          "checked_at": "2026-10-29T07:29:48Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-29T06:54:45Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-29T06:54:45Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-29T06:54:45Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         }
       },
       "chain": "complete",
@@ -142,7 +137,7 @@
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-10-29T07:09:02Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "verdict": {
           "state": "missing",
@@ -157,17 +152,17 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork is missing",
-          "checked_at": "2026-10-29T07:09:03Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-10-29T07:09:03Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-10-29T07:09:03Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         }
       },
       "chain": "failed",
@@ -199,32 +194,27 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-29T07:04:07Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "verdict": {
           "state": "present",
           "checked_at": "2026-10-24T13:32:54Z"
         },
         "fork": {
-          "state": "not checked",
-          "reason": "GitHub did not answer",
-          "detail": "reading repository lab-569dea/patch-requests: Get \"https://api.github.com/repos/lab-569dea/patch-requests\": unexpected EOF",
-          "unanswered": true,
-          "checked_at": "2026-10-29T07:09:02Z"
+          "state": "present",
+          "checked_at": "2026-10-29T07:29:50Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "the fork could not be checked",
-          "unanswered": true,
-          "checked_at": "2026-10-29T07:09:02Z"
+          "state": "present",
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-29T07:09:02Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-29T07:09:02Z"
+          "checked_at": "2026-10-29T08:04:56Z"
         }
       },
       "chain": "complete",
