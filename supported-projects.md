@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-29T05:51:58Z. Written by the line manager reconciler.
+Generated 2026-10-29T06:54:41Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -34,7 +34,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.rabbitmq:amqp-client | 5.14.3 | spring-boot-2.7.x | listed by the BOM at 5.14.3 | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.9.4 | spring-boot-2.7.x | pulled in by a dependency (org.apache.activemq:artemis-commons@2.19.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-lang:commons-lang | 2.4 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| crypto-js | 4.1.1 | crypto-js-4.1.x | pulled in by a dependency (crypto-js@4.1.1) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 4.1.2-osera-00001 | 4.1.2-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| crypto-js | 4.1.1 | crypto-js-4.1.x | pulled in by a dependency (crypto-js@4.1.1) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 4.1.2-osera-00001 | 4.1.2-osera-00001 | not ready, not fully checked: fork, tag | not fully checked | OK | OK | OK | OK | OK | OK | not checked (GitHub did not answer) | not checked (the fork could not be checked) | OK | OK |
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -93,7 +93,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.thymeleaf:thymeleaf-spring5 | 3.0.15.RELEASE | spring-boot-2.7.x | listed by the BOM at 3.0.15.RELEASE | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.xmlunit:xmlunit-core | 2.9.1 | spring-boot-2.7.x | listed by the BOM at 2.9.1 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.33 | spring-boot-2.7.x | listed by the BOM at 1.30 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| requests | 2.31.0 | requests-2.31.x | pulled in by a dependency (requests@2.31.0) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 2.31.0+osera.patch.1 | 2.31.0+osera.patch.1 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| requests | 2.31.0 | requests-2.31.x | pulled in by a dependency (requests@2.31.0) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 2.31.0+osera.patch.1 | 2.31.0+osera.patch.1 | not ready, not fully checked: fork, tag | not fully checked | OK | OK | OK | OK | OK | OK | not checked (GitHub did not answer) | not checked (the fork could not be checked) | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Libraries promoted, not in the backlog

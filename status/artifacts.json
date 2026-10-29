@@ -25,27 +25,32 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T06:54:45Z"
         },
         "verdict": {
           "state": "present",
           "checked_at": "2026-10-24T13:32:52Z"
         },
         "fork": {
-          "state": "present",
-          "checked_at": "2026-10-27T11:02:58Z"
+          "state": "not checked",
+          "reason": "GitHub did not answer",
+          "detail": "reading repository lab-569dea/patch-crypto-js: Get \"https://api.github.com/repos/lab-569dea/patch-crypto-js\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+          "unanswered": true,
+          "checked_at": "2026-10-29T07:04:07Z"
         },
         "tag": {
-          "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "state": "not checked",
+          "reason": "the fork could not be checked",
+          "unanswered": true,
+          "checked_at": "2026-10-29T07:04:07Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:04:07Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:04:07Z"
         }
       },
       "chain": "complete",
@@ -79,7 +84,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T06:54:45Z"
         },
         "verdict": {
           "state": "present",
@@ -87,19 +92,19 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-10-27T11:02:57Z"
+          "checked_at": "2026-10-29T06:00:47Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T06:54:45Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T06:54:45Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T06:54:45Z"
         }
       },
       "chain": "complete",
@@ -122,7 +127,7 @@
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to oseralab-gate-probe-0.0.1+osera.patch.1",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-29T07:09:02Z"
         },
         "signatures": {
           "state": "failed",
@@ -132,37 +137,37 @@
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (oseralab_gate_probe-0.0.1+osera.patch.1-cyclonedx.json)",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-29T07:09:02Z"
         },
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:09:02Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 0.0.1+osera.patch.1 in osera-releases-raw-01",
-          "checked_at": "2026-10-27T11:23:30Z"
+          "checked_at": "2026-10-29T07:09:02Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-oseralab-gate-probe is missing",
-          "checked_at": "2026-10-27T11:04:57Z"
+          "checked_at": "2026-10-29T07:09:03Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork is missing",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:09:03Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:09:03Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:09:03Z"
         }
       },
       "chain": "failed",
@@ -194,27 +199,32 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:04:07Z"
         },
         "verdict": {
           "state": "present",
           "checked_at": "2026-10-24T13:32:54Z"
         },
         "fork": {
-          "state": "present",
-          "checked_at": "2026-10-27T11:02:59Z"
+          "state": "not checked",
+          "reason": "GitHub did not answer",
+          "detail": "reading repository lab-569dea/patch-requests: Get \"https://api.github.com/repos/lab-569dea/patch-requests\": unexpected EOF",
+          "unanswered": true,
+          "checked_at": "2026-10-29T07:09:02Z"
         },
         "tag": {
-          "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "state": "not checked",
+          "reason": "the fork could not be checked",
+          "unanswered": true,
+          "checked_at": "2026-10-29T07:09:02Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:09:02Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-27T11:26:30Z"
+          "checked_at": "2026-10-29T07:09:02Z"
         }
       },
       "chain": "complete",
