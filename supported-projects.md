@@ -2,6 +2,8 @@
 
 Generated 2026-10-29T08:29:02Z. Written by the line manager reconciler.
 
+Availability last confirmed 2026-10-29T08:32:02Z. It has not been confirmed since 2026-11-18T11:31:17Z.
+
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
 ## Lines
