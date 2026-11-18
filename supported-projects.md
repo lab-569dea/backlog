@@ -1,8 +1,6 @@
 # Supported projects
 
-Generated 2026-10-29T08:29:02Z. Written by the line manager reconciler.
-
-Availability last confirmed 2026-10-29T08:32:02Z. It has not been confirmed since 2026-11-18T11:31:17Z.
+Generated 2026-11-18T11:32:17Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -11,9 +9,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | - | 0 | 0 | - | 113 | 0 | 0 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 47 | 0 | 0% | 0 | 0 | 47 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | - | 0 | 0 | - | 12 | 0 | 0 | 0 |
-| crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
+| crypto-js-4.1.x | npm | `crypto-js@4.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.31.x | pypi | `requests==2.31.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
