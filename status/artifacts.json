@@ -25,27 +25,32 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:01:27Z"
         },
         "verdict": {
           "state": "present",
           "checked_at": "2026-10-24T13:32:52Z"
         },
         "fork": {
-          "state": "present",
-          "checked_at": "2026-10-29T07:29:49Z"
+          "state": "not checked",
+          "reason": "GitHub did not answer",
+          "detail": "reading repository lab-569dea/patch-crypto-js: Get \"https://api.github.com/repos/lab-569dea/patch-crypto-js\": unexpected EOF",
+          "unanswered": true,
+          "checked_at": "2026-11-19T08:02:02Z"
         },
         "tag": {
-          "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "state": "not checked",
+          "reason": "the fork could not be checked",
+          "unanswered": true,
+          "checked_at": "2026-11-19T08:02:02Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:02Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:02Z"
         }
       },
       "chain": "complete",
@@ -79,7 +84,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T07:32:54Z"
         },
         "verdict": {
           "state": "present",
@@ -87,19 +92,22 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-10-29T07:29:48Z"
+          "checked_at": "2026-11-19T07:32:55Z"
         },
         "tag": {
-          "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "state": "not checked",
+          "reason": "GitHub did not answer",
+          "detail": "reading tag v1.33.1-osera-00001 in lab-569dea/patch-snakeyaml: Get \"https://api.github.com/repos/lab-569dea/patch-snakeyaml/git/ref/tags/v1.33.1-osera-00001\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+          "unanswered": true,
+          "checked_at": "2026-11-19T08:01:27Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:01:27Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:01:27Z"
         }
       },
       "chain": "complete",
@@ -122,7 +130,7 @@
         "evidence": {
           "state": "missing",
           "reason": "no evidence file next to oseralab-gate-probe-0.0.1+osera.patch.1",
-          "checked_at": "2026-10-29T07:09:02Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "signatures": {
           "state": "failed",
@@ -132,37 +140,37 @@
         "document": {
           "state": "missing",
           "reason": "no vulnerability document next to the pom (oseralab_gate_probe-0.0.1+osera.patch.1-cyclonedx.json)",
-          "checked_at": "2026-10-29T07:09:02Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "verdict": {
           "state": "missing",
           "reason": "no verdict for 0.0.1+osera.patch.1 in osera-releases-raw-01",
-          "checked_at": "2026-10-29T07:09:02Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "fork": {
           "state": "missing",
           "reason": "the fork patch-oseralab-gate-probe is missing",
-          "checked_at": "2026-10-29T07:09:03Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "tag": {
           "state": "not checked",
           "reason": "the fork is missing",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         }
       },
       "chain": "failed",
@@ -194,7 +202,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:02Z"
         },
         "verdict": {
           "state": "present",
@@ -202,19 +210,19 @@
         },
         "fork": {
           "state": "present",
-          "checked_at": "2026-10-29T07:29:50Z"
+          "checked_at": "2026-11-19T08:02:02Z"
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-10-29T08:04:56Z"
+          "checked_at": "2026-11-19T08:02:03Z"
         }
       },
       "chain": "complete",
