@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-19T06:23:29Z. Written by the line manager reconciler.
+Generated 2026-11-19T07:32:48Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -160,6 +160,6 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | - | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | - | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 1.31.1-osera-00003 | 1.31.1-osera-00003 | not ready, evidence chain incomplete: not checked | not fully checked | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) | not checked (the line manager has not checked this artifact) |
-| org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x, spring-boot-2.7.x | listed by the BOM at 1.30 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x, spring-boot-2.7.x | listed by the BOM at 1.30 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | not ready, not fully checked: tag | not fully checked | OK | OK | OK | OK | OK | OK | OK | not checked (GitHub did not answer) | OK | OK |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | - | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
