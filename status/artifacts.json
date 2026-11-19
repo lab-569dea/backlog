@@ -25,32 +25,27 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-11-19T08:01:27Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "verdict": {
           "state": "present",
           "checked_at": "2026-10-24T13:32:52Z"
         },
         "fork": {
-          "state": "not checked",
-          "reason": "GitHub did not answer",
-          "detail": "reading repository lab-569dea/patch-crypto-js: Get \"https://api.github.com/repos/lab-569dea/patch-crypto-js\": unexpected EOF",
-          "unanswered": true,
-          "checked_at": "2026-11-19T08:02:02Z"
+          "state": "present",
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "the fork could not be checked",
-          "unanswered": true,
-          "checked_at": "2026-11-19T08:02:02Z"
+          "state": "present",
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-11-19T08:02:02Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-11-19T08:02:02Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         }
       },
       "chain": "complete",
@@ -84,7 +79,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-11-19T07:32:54Z"
+          "checked_at": "2026-11-19T08:02:44Z"
         },
         "verdict": {
           "state": "present",
@@ -95,19 +90,16 @@
           "checked_at": "2026-11-19T07:32:55Z"
         },
         "tag": {
-          "state": "not checked",
-          "reason": "GitHub did not answer",
-          "detail": "reading tag v1.33.1-osera-00001 in lab-569dea/patch-snakeyaml: Get \"https://api.github.com/repos/lab-569dea/patch-snakeyaml/git/ref/tags/v1.33.1-osera-00001\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
-          "unanswered": true,
-          "checked_at": "2026-11-19T08:01:27Z"
+          "state": "present",
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-11-19T08:01:27Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-11-19T08:01:27Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         }
       },
       "chain": "complete",
@@ -145,7 +137,7 @@
         "producer": {
           "state": "missing",
           "reason": "the evidence names no producer",
-          "checked_at": "2026-11-19T08:02:03Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "verdict": {
           "state": "missing",
@@ -160,17 +152,17 @@
         "tag": {
           "state": "not checked",
           "reason": "the fork is missing",
-          "checked_at": "2026-11-19T08:02:03Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "upload": {
           "state": "not checked",
           "reason": "no verdict to read the upload account from",
-          "checked_at": "2026-11-19T08:02:03Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "tagger": {
           "state": "not checked",
           "reason": "no verdict to read the tag pusher from",
-          "checked_at": "2026-11-19T08:02:03Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         }
       },
       "chain": "failed",
@@ -202,7 +194,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-11-19T08:02:02Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "verdict": {
           "state": "present",
@@ -214,15 +206,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-11-19T08:02:03Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-11-19T08:02:03Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-11-19T08:02:03Z"
+          "checked_at": "2026-11-19T08:02:45Z"
         }
       },
       "chain": "complete",
